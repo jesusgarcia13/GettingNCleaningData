@@ -86,7 +86,7 @@ tidy_mean$Activity <- as.factor(tidy_mean$Activity)
 ##
 ## 5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 ##
-write.table(tidy_mean, file = "tidy_mean.csv",row.names=FALSE, na="",col.names=FALSE, sep=",")
-write.table(tidy_set, file = "tidy_set.csv",row.names=FALSE, na="",col.names=FALSE, sep=",")
+write.table(tidy_mean, file = "tidy_mean.txt",row.names=FALSE, na="",col.names=FALSE, sep=",")
+write.table(tidy_set, file = "tidy_set.txt",row.names=FALSE, na="",col.names=FALSE, sep=",")
 
 print ("All Set")
